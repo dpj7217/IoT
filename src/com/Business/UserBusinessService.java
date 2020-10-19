@@ -1,14 +1,13 @@
 package com.Business;
 
 import org.springframework.beans.factory.annotation.Autowired;
-
-import com.Data.UserDataInterface;
+import com.Data.UserDataService;
 import com.Models.User;
 
 public class UserBusinessService implements UserBusinessInterface {
 	@SuppressWarnings("rawtypes")
 	@Autowired
-	UserDataInterface dao;
+	UserDataService dao;
 	
 
 	@Override

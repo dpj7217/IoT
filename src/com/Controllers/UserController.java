@@ -14,7 +14,7 @@ import com.Business.UserBusinessInterface;
 import com.Models.User;
 
 @Controller 
-//@RequestMapping("/user")
+@RequestMapping("/user")
 public class UserController {
 	//SpringBean declaration
 	UserBusinessInterface service;
