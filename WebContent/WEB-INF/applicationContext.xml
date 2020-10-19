@@ -26,13 +26,10 @@
         <property name="username" value="root" />
         <property name="password" value="root" />
    	</bean>
-   	
-   	
    	<!-- Application Spring Beans -->
-   	<bean id="userService" class="com.business.UserBusinessService"></bean>
-    
-    <bean id = "userController" class="com.controller.UserController">
+    <bean id = "userController" class="com.Controllers.UserController">
 		<property name="userService" ref="userService"/>
 	</bean>
+	<bean id="userService" class="com.Business.UserBusinessService"></bean>
    	
 </beans>

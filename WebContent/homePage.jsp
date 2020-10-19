@@ -8,5 +8,8 @@
 </head>
 <body>
 	<h1>Welcome to AudioScapes!</h1>
+	<h3>Here are your options</h3>
+	<a class="btn" href="../ChirpsOverTime">View Chirps</a>
+	<a class="btn" href="../AudioOverTime">View Audio</a>
 </body>
 </html>
